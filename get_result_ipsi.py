@@ -74,7 +74,7 @@ if uploaded_file is not None:
                     ws.append([text])
                     ws.append([])
 
-        file_name = f"{university_name}.xlsx"
+        file_name = f"./경쟁률모음/{university_name}.xlsx"
         wb.save(file_name)
         st.write(f'{university_name}의 페이지 내용을 {file_name}에 저장 완료!')
 
